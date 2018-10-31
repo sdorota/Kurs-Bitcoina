@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Kurs Bitcoin</title>
+
+<!-- Font Awesome -->
+<link rel="stylesheet" href="css/fontawesome/css/all.css">
+</head>
+<body>
+<h2>Aktualny kurs Bitcoin do PLN</h2>
+
+<h3>Kupno</h3>
+<span id="buy" class="exchange-value"></span> <i class="fas fa-minus-square" aria-hidden="true" id="buy-arrow"></i>
+
+<h3>Sprzedaż</h3>
+<span id="sell" class="exchange-value"></span> <i class="fas fa-minus-square" aria-hidden="true" id="sell-arrow"></i>
+
+
+<div class="control-buttons">
+<h4>Odświeżaj kurs co:</h4>
+<button value="5000" class="control-button">5 sekund</button>
+<button value="10000" class="control-button">10 sekund</button>
+<button value="30000" class="control-button">30 sekund</button>
+<button value="60000" class="control-button">60 sekund</button>
+</div>
+
+<h4>Odświeżanie kursu co <span id="refresh-frequency">5 sekund</span></h4>
+
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
